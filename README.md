@@ -54,7 +54,7 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 ## `SETTINGS`
 
 - CHANGE OWNER NUMBER [Here](https://github.com/Sibuuu07/Arctix/blob/master/config.js#L25)
-- CHANGE OWNER NAME [Here](https://github.com/Sibuuu07/Arctox/blob/master/config.js#L30)
+- CHANGE OWNER NAME [Here](https://github.com/Sibuuu07/Arctix/blob/master/config.js#L30)
 - CHANGE BOT NAME [Here](https://github.com/Sibuuu07/Arctix/blob/master/config.js#L29)
 
 ## ` BUILDPACKS`
