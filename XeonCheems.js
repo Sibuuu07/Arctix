@@ -1191,7 +1191,7 @@ case 'antilink':
                 }
             }
             break
-            case 'delete': case 'del': {
+            case 'delete': case 'del': case 'dl': {
                 if (!m.quoted) throw false
                 let { chat, fromMe, id, isBaileys } = m.quoted
                 if (!isBaileys) throw 'The message was not sent by a bot!'
@@ -1805,6 +1805,44 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
+case 'tts':
+					  try{
+        if (args.length > 1) {
+        const gtts = require('./lib/gtts')(args[0])
+        if (args.length < 2) return XeonBotInc.sendMessage(from, 'Where is the text bro??', text, {quoted: mek})
+        ngab = budy.slice(7)
+        ranm = getRandom('.mp3')
+        rano = getRandom('.ogg')
+        ngab.length > 600
+        ? reply('The text is too much bro, max words 600')
+        : gtts.save(ranm, ngab, function() {
+            exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
+                fs.unlinkSync(ranm)
+                buff = fs.readFileSync(rano)
+                if (err) return reply('Failed bro:(')
+                XeonBotInc.sendMessage(from, buff, audio, {quoted:mek,ptt:true})
+                fs.unlinkSync(rano)
+            })
+        })
+	} else if ( args.length === 1 ){
+		ngab = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
+		const gtts = require('./lib/gtts')(args[0])
+        ranm = getRandom('.mp3')
+        rano = getRandom('.ogg')
+        gtts.save(ranm, ngab, function() {
+            exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
+                fs.unlinkSync(ranm)
+                buff = fs.readFileSync(rano)
+                if (err) return reply(mess.error.api)
+                XeonBotInc.sendMessage(from, buff, audio, {quoted:mek,ptt:true})
+                fs.unlinkSync(rano)
+            })
+        })
+	}
+} catch (e){
+	reply(mess.error.api)
+}
+break
             case 'tiktokwm': case 'tiktokwatermark': {
                 if (!text) throw 'Enter Query Link!'
                 replay(mess.wait)
@@ -2430,8 +2468,6 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
                             hydratedFooterText: `Hi 🤚 ${pushname}
 How Are You? 😊
-
-
 ❏「 INFO BOT 」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
