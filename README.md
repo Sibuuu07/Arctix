@@ -16,13 +16,13 @@ Arctix Bot Multi Device is a automated whatsapp bot created by <a href="https://
 # ```Bot Info```
 <p align="center">
 <a href="https://github.com/Sibuuu07/followers"><img title="Followers" src="https://img.shields.io/github/followers/Sibuuu07?color=red&style=flat-square"></a>
-<a href="https://github.com/Sibuuu07/CheemsBot-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Sibuuu07/CheemsBot-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/Sibuuu07/CheemsBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Sibuuu07/CheemsBot-MD?color=red&style=flat-square"></a>
-<a href="https://github.com/Sibuuu07/CheemsBot-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Sibuuu07/CheemsBot-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/Sibuuu07/CheemsBot-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-Arctix%20Bot%20Inc.-red?v=103"></a>
-<a href="https://github.com/Sibuuu07/CheemsBot-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Sibuuu07/CheemsBot-MD?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSibuuu07%2FCheemsBot-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/Sibuuu07/CheemsBot-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/Sibuuu07/Arctix/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Sibuuu07/Arctix?color=blue&style=flat-square"></a>
+<a href="https://github.com/Sibuuu07/Arctix/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Sibuuu07/Arctix?color=red&style=flat-square"></a>
+<a href="https://github.com/Sibuuu07/Arctix/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Sibuuu07/Arctix?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Sibuuu07/Arctix"><img title="Open Source" src="https://img.shields.io/badge/Author-Arctix%20Bot%20Inc.-red?v=103"></a>
+<a href="https://github.com/Sibuuu07/Arctix/"><img title="Size" src="https://img.shields.io/github/repo-size/Sibuuu07/Arctix?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSibuuu07%2FArctix&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Sibuuu07/Arctix/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
     </p>
@@ -53,9 +53,9 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/Sibuuu07/CheemsBot-MD/blob/master/config.js#L25)
-- CHANGE OWNER NAME [Here](https://github.com/Sibuuu07/CheemsBot-MD/blob/master/config.js#L30)
-- CHANGE BOT NAME [Here](https://github.com/Sibuuu07/CheemsBot-MD/blob/master/config.js#L29)
+- CHANGE OWNER NUMBER [Here](https://github.com/Sibuuu07/Arctix/blob/master/config.js#L25)
+- CHANGE OWNER NAME [Here](https://github.com/Sibuuu07/Arctox/blob/master/config.js#L30)
+- CHANGE BOT NAME [Here](https://github.com/Sibuuu07/Arctix/blob/master/config.js#L29)
 
 ## ` BUILDPACKS`
 
@@ -66,7 +66,7 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 heroku/nodejs
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sibuuu07/CheemsBot-MD/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sibuuu07/Arctix/)
 
 # Install Manually 👇
 ## `Requirements`
@@ -77,8 +77,8 @@ heroku/nodejs
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/Sibuuu07/CheemsBot-MD.git
-cd CheemsBot-MD
+git clone https://github.com/Sibuuu07/Arctix.git
+cd Arctix
 npm start
 ```
 ## `For Termux/Ssh/Ubuntu`
@@ -93,8 +93,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/Sibuuu07/CheemsBot-MD
-cd CheemsBot-MD
+git clone https://github.com/Sibuuu07/Arctix
+cd Arctix
 npm start
 ```
 ## `For VPS`
@@ -105,8 +105,8 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagemagick
 apt install bash
-git clone https://github.com/Sibuuu07/CheemsBot-MD
-cd CheemsBot-MD
+git clone https://github.com/Sibuuu07/Arctix
+cd Arctix
 npm start
 ```
 ## `For 24/7 Activation`
