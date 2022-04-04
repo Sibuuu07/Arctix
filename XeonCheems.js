@@ -100,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/Ft4VEjPCrYUIgkWa8a7ybA"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/ICQEbIj8PUj3bkPdgmULbN"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": `Follow my Instagram account`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://www.instagram.com/sibssssssss/"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": `Follow my Instagram account`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://www.instagram.com/sibssssssss"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/Sibuuu07/CheemsBot-MD\n Dont Forget To Give Star\n\nInstagram : https://www.instagram.com/sibssssssss/\n Dont Forget To Follow')
+                reply('Script : https://github.com/Sibuuu07/CheemsBot-MD\n Dont Forget To Give Star\n\nInstagram : https://www.instagram.com/sibssssssss\n Dont Forget To Follow')
             }
             break
             case 'chat': {
@@ -1191,7 +1191,7 @@ case 'antilink':
                 }
             }
             break
-            case 'delete': case 'del': case 'dl': {
+            case 'delete': case 'del': {
                 if (!m.quoted) throw false
                 let { chat, fromMe, id, isBaileys } = m.quoted
                 if (!isBaileys) throw 'The message was not sent by a bot!'
@@ -1805,44 +1805,6 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-case 'tts':
-					  try{
-        if (args.length > 1) {
-        const gtts = require('./lib/gtts')(args[0])
-        if (args.length < 2) return XeonBotInc.sendMessage(from, 'Where is the text bro??', text, {quoted: mek})
-        ngab = budy.slice(7)
-        ranm = getRandom('.mp3')
-        rano = getRandom('.ogg')
-        ngab.length > 600
-        ? reply('The text is too much bro, max words 600')
-        : gtts.save(ranm, ngab, function() {
-            exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
-                fs.unlinkSync(ranm)
-                buff = fs.readFileSync(rano)
-                if (err) return reply('Failed bro:(')
-                XeonBotInc.sendMessage(from, buff, audio, {quoted:mek,ptt:true})
-                fs.unlinkSync(rano)
-            })
-        })
-	} else if ( args.length === 1 ){
-		ngab = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
-		const gtts = require('./lib/gtts')(args[0])
-        ranm = getRandom('.mp3')
-        rano = getRandom('.ogg')
-        gtts.save(ranm, ngab, function() {
-            exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
-                fs.unlinkSync(ranm)
-                buff = fs.readFileSync(rano)
-                if (err) return reply(mess.error.api)
-                XeonBotInc.sendMessage(from, buff, audio, {quoted:mek,ptt:true})
-                fs.unlinkSync(rano)
-            })
-        })
-	}
-} catch (e){
-	reply(mess.error.api)
-}
-break
             case 'tiktokwm': case 'tiktokwatermark': {
                 if (!text) throw 'Enter Query Link!'
                 replay(mess.wait)
@@ -2426,7 +2388,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                             	urlButton: {
@@ -2468,6 +2430,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
                             hydratedFooterText: `Hi 🤚 ${pushname}
 How Are You? 😊
+
+
 ❏「 INFO BOT 」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -2484,7 +2448,7 @@ Please Select Button Below
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                             	urlButton: {
@@ -2654,7 +2618,7 @@ case 'grupmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2696,7 +2660,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2733,7 +2697,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2764,7 +2728,7 @@ case 'randommenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2796,7 +2760,7 @@ case 'funmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2836,7 +2800,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2870,7 +2834,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2928,7 +2892,7 @@ case 'horoscopemenukcodk': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2966,7 +2930,7 @@ case 'convertmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3006,7 +2970,7 @@ case 'nocategorymenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3043,7 +3007,7 @@ case 'databasemenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3075,7 +3039,7 @@ case 'anonymouschatmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3107,7 +3071,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3144,7 +3108,7 @@ break
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3285,7 +3249,7 @@ break
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://www.instagram.com/sibssssssss/'
+                                    url: 'https://www.instagram.com/sibssssssss'
                                 }
                             }, {
                                 quickReplyButton: {
