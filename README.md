@@ -1,7 +1,7 @@
 <h1 align="center">ꪶ𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓ꫂ<br></h1>
 <P align="center">𝐀𝐫𝐜𝐭𝐢𝐜 × 𝐀𝐫𝐜𝐞𝐮𝐬 𝐢𝐧𝐜.</p>
 <p align="center">
-  <img src="https://telegra.ph/file/f6afbfb1b73ea45fd6e37.jpg" width="170" height="170" />
+  <img src="https://telegra.ph/file/acb583f82ec0ef24da54b.jpg" width="350" height="300" />
 </p>
 
 <p align="center">
