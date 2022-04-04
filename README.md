@@ -1,4 +1,5 @@
 <h1 align="center">ꪶ𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓ꫂ<br></h1>
+<P align="center">𝐀𝐫𝐜𝐭𝐢𝐜 × 𝐀𝐫𝐜𝐞𝐮𝐬 𝐢𝐧𝐜.</p>
 <p align="center">
   <img src="https://telegra.ph/file/f6afbfb1b73ea45fd6e37.jpg" width="170" height="170" />
 </p>
@@ -32,7 +33,7 @@ Arctix Bot Multi Device is a automated whatsapp bot created by <a href="https://
 ## ```Connect With Me```
 <p align="center">
 <a href="https://wa.me/16149454333"><img src="https://img.shields.io/badge/Contact Arctix-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/Ft4VEjPCrYUIgkWa8a7ybA"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/ICQEbIj8PUj3bkPdgmULbN"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 </p>
 
@@ -46,7 +47,7 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 
 ## ```Bot Support Groups```
 
-- [`1st GC`](https://chat.whatsapp.com/Ft4VEjPCrYUIgkWa8a7ybA)
+- [`1st GC`](https://chat.whatsapp.com/ICQEbIj8PUj3bkPdgmULbN)
 - [`2nd GC`](COMMING SOON)
 
 # Setup For Deployment 👇
