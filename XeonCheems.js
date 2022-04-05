@@ -764,7 +764,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 case 'attp': {
-				    if (!c) return reply(`Where is the text bro?\nExample :\n${prefix}attp ArctixBot`)
+				    if (!text) return reply(`Where is the text bro?\nExample :\n${prefix}attp ArctixBot`)
 					atetepe12 = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=${RIFQIBOTZ}&text=${encodeURIComponent(c)}`)
 					XeonBotInc.sendMessage(from, atetepe12, sticker, { quoted: mek })
 					}
