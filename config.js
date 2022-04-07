@@ -25,14 +25,14 @@ global.APIKeys = {
 global.owner = ['919337956084','16149454333,358753264940'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
 global.pemilik = ['919337956084'] //another owner number
 global.premium = ['919337956084'] //premium number
-global.pengguna = 'Arctix' //username
-global.botnma = 'Arctix' //bot name
+global.pengguna = 'SIBU' //username
+global.botnma = '𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓' //bot name
 global.ownernma = 'Arctix' //owner name
 global.packname = 'Arctix' //sticker package name
 global.author = '𝐀𝐫𝐜𝐭𝐢𝐜 × 𝐀𝐫𝐜𝐞𝐮𝐬 𝐢𝐧𝐜.' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
-global.sp = '⭔' //design
+global.sp = '🎭' //design
 global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
