@@ -1,8 +1,8 @@
 {
   "name": "Arctix Bot",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Sibuuu07/CheemsBot-MD",
-  "logo": "https://telegra.ph/file/f6afbfb1b73ea45fd6e37.jpg?format=jpg&name=900x900",
+  "repository": "https://github.com/Sibuuu07/Arctix,
+  "logo": "https://telegra.ph/file/acb583f82ec0ef24da54b.jpg?format=jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
