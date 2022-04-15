@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/Sibuuu07/CheemsBot-MD\n Dont Forget To Give Star\n\nInstagram : https://www.instagram.com/sibssssssss\n Dont Forget To Follow')
+                reply('Script : https://github.com/Sibuuu07/Arctix\n Dont Forget To Give Star\n\nInstagram : https://www.instagram.com/sibssssssss\n Dont Forget To Follow')
             }
             break
             case 'chat': {
@@ -1216,7 +1216,7 @@ case 'antilink':
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram 📷',
-                                    url: 'https://github.com/Sibuuu07/CheemsBot-MD'
+                                    url: 'https://github.com/Sibuuu07/Arctix'
                                 }
                             }, {
                                 callButton: {
@@ -1256,7 +1256,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script🔖',
-                                    url: 'https://github.com/Sibuuu07/CheemsBot-MD'
+                                    url: 'https://github.com/Sibuuu07/Arctix'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2399,7 +2399,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/Sibuuu07/CheemsBot-MD'
+                                    url: 'https://github.com/Sibuuu07/Arctix'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2459,7 +2459,7 @@ Please Select Button Below
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/Sibuuu07/CheemsBot-MD'
+                                    url: 'https://github.com/Sibuuu07/Arctix'
                                 }
                             }, {
                                 quickReplyButton: {
