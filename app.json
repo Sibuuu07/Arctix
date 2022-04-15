@@ -2,7 +2,7 @@
   "name": "Arctix Bot",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/Sibuuu07/Arctix,
-  "logo": "https://telegra.ph/file/acb583f82ec0ef24da54b.jpg?format=jpg&name=900x900",
+  "logo": "https://telegra.ph/file/b9faf3acf140ccc725117.jpg?format=jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
